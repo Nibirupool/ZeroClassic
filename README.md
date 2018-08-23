@@ -1,4 +1,4 @@
-ZEROClassic 1.0.14-1
+ZEROClassic 1.0.14-1 -- WARNING! NOT RELEASED YET!
 =======
 
 What is ZEROClassic?
