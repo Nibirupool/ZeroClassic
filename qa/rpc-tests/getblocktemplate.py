@@ -51,8 +51,7 @@ class GetBlockTemplateTest(BitcoinTestFramework):
         tmpl = node.getblocktemplate()
         assert(len(tmpl['noncerange']) == 16)
 
-        # Test 6: coinbasetxn checks
-        assert('foundersreward' in tmpl['coinbasetxn'])
+        # Test 6: coinbasetxn checks        
         assert(tmpl['coinbasetxn']['required'])
 
 if __name__ == '__main__':
