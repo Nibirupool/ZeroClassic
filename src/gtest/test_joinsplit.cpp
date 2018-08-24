@@ -354,8 +354,8 @@ TEST(joinsplit, full_api_test)
         2100000000000001,
         0,
         tree.root(),
-        "invalid joinsplit balance");
-        //"nonsensical vpub_old value");
+        
+        "nonsensical vpub_old value");
 
         // rhs > MAX_MONEY
         invokeAPIFailure(params,
@@ -370,8 +370,7 @@ TEST(joinsplit, full_api_test)
         0,
         2100000000000001,
         tree.root(),
-        "invalid joinsplit balance");
-        //"nonsensical vpub_new value");
+        "nonsensical vpub_new value");
 
         // input witness for the wrong element
         invokeAPIFailure(params,
@@ -445,9 +444,8 @@ TEST(joinsplit, full_api_test)
         },
         0,
         0,
-        tree.root(),
-        "invalid joinsplit balance");
-        //"nonsensical input note value");
+        tree.root(),        
+        "nonsensical input note value");
 
         // Absurd total input value
         invokeAPIFailure(params,
@@ -461,9 +459,8 @@ TEST(joinsplit, full_api_test)
         },
         0,
         0,
-        tree.root(),
-        "invalid joinsplit balance");
-        //"nonsensical left hand size of joinsplit balance");
+        tree.root(),        
+        "nonsensical left hand size of joinsplit balance");
 
         // Absurd output value
         invokeAPIFailure(params,
@@ -478,8 +475,7 @@ TEST(joinsplit, full_api_test)
         0,
         0,
         tree.root(),
-        "invalid joinsplit balance");
-        //"nonsensical output value");
+        "nonsensical output value");
 
         // Absurd total output value
         invokeAPIFailure(params,
@@ -493,9 +489,8 @@ TEST(joinsplit, full_api_test)
         },
         0,
         0,
-        tree.root(),
-        "invalid joinsplit balance");
-        //"nonsensical right hand side of joinsplit balance");
+        tree.root(),        
+        "nonsensical right hand side of joinsplit balance");
 
         // Absurd total output value
         invokeAPIFailure(params,
