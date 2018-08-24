@@ -38,8 +38,8 @@ sudo apt-get install \
 
 ### Obtain the ZEROClassic software from GitHub
 ```
-git clone https://github.com/zeroclassic/zeroclassic.git
-cd zeroclassic
+git clone https://github.com/LEAD-Anoy74/ZeroClassic
+cd ZeroClassic
 git checkout master
 ```
 
