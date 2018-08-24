@@ -10,7 +10,7 @@ Zcash is a fork of Bitcoin that adds shielded transaction via zk-SNARKs.
 This software is the ZEROClassic node. It downloads and stores the entire history of ZEROClassic transactions, about 1GB at this point.
 Depending on the speed of your computer and network connection, the synchronization process could take several hours.
 
-**ZERO is unfinished and highly experimental.** Use at your own risk.
+**ZEROClassic is unfinished and highly experimental.** Use at your own risk.
 
 Deprecation Policy
 ------------------
